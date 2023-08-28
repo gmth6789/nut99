@@ -8,5 +8,8 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     NutVideo: typeof import('@nutui/nutui')['Video']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
+    Video: typeof import('./src/components/Video.vue')['default']
   }
 }

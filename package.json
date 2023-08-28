@@ -3,7 +3,8 @@
     "@nutui/icons-vue": "^0.0.26",
     "@nutui/nutui": "^4.0.8",
     "unplugin-vue-components": "^0.25.1",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
